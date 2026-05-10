@@ -76,19 +76,22 @@ acceptable engineering answer.
 ## How to use
 
 ### Option 1: Replace your `CLAUDE.md`
-```bash
+
 curl -o CLAUDE.md https://raw.githubusercontent.com/<your-username>/<your-repo>/main/CLAUDE.md
 
 ### Option 2: Merge into existing CLAUDE.md
+
 Append the extended principles after the original four. They are designed to
 compose cleanly — no conflicts, no contradictions.
 
 ### Option 3: Use alongside the original plugin
+
 If you already use the andrej-karpathy-skills plugin in Claude Code, add
 only the three new enhancements to your project-level CLAUDE.md to get the
 combined effect.
 
 ### Philosophy
+
 These extensions share the same design philosophy as the original:
 
 Actionable, not philosophical. Every rule triggers observable behavior
@@ -101,6 +104,7 @@ Bias toward caution, with an escape hatch. The guidelines favor careful
 behavior but explicitly allow judgment for trivial tasks.
 
 ### Credits
+
 All original four principles are the work of
 forrestchang/andrej-karpathy-skills,
 inspired by Andrej Karpathy's observations
@@ -108,4 +112,5 @@ on LLM coding pitfalls. This repository extends that work with three additional
 insights derived from practical experience deploying LLM coding agents.
 
 ### License
+
 MIT — same as the original project.
